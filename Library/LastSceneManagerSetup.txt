@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Campfire/Campfire.unity
+  isLoaded: 1
+  isActive: 1
