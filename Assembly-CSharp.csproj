@@ -56,6 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plexus\Scripts\PlexusEffect.cs" />
+    <None Include="Assets\BlackHole\Shaders\AlphaBlend.shader" />
+    <None Include="Assets\BlackHole\Shaders\AlphaBlendFrag.shader" />
+    <None Include="Assets\BlackHole\Shaders\AdditiveFrag.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Projects/VFX/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
