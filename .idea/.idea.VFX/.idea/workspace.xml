@@ -23,7 +23,22 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81bac164-f8be-4d67-b242-bf0af49bfc7c" name="Default" comment="" />
+    <list default="true" id="81bac164-f8be-4d67-b242-bf0af49bfc7c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VFX/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VFX/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VFX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackHole/BlackHole.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlackHole/BlackHole.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/09/09677164ae7033e498a4fce36b6060f6.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/09/09677164ae7033e498a4fce36b6060f6.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2b/2b1c70e960847bf47a84af4b21549eed" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2b/2b1c70e960847bf47a84af4b21549eed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2b/2b1c70e960847bf47a84af4b21549eed.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2b/2b1c70e960847bf47a84af4b21549eed.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +47,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PlexusEffect.cs" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PlexusEffect.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plexus/Scripts/PlexusEffect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+            <state relative-caret-position="1245">
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
               <folding>
-                <marker date="1535551678763" expanded="true" signature="6:32" ph="..." />
+                <marker date="1535551678763" expanded="false" signature="6:32" ph="..." />
                 <marker date="1535551678763" expanded="true" signature="118:3475" ph="{...}" />
                 <marker date="1535551678763" expanded="true" signature="601:1038" ph="{...}" />
                 <marker date="1535551678763" expanded="true" signature="931:1035" ph="{...}" />
@@ -63,10 +78,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AdditiveFrag.shader" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/BlackHole/Shaders/AdditiveFrag.shader">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Plexus/Scripts/PlexusEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plexus/Scripts/PlexusEffect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C53FD6A3-0F3A-48DF-8726-A5828F86721F/c2/63e53be7/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -99,6 +122,10 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -122,10 +149,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,9 +168,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="3572">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3572" />
+      <option name="pid" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -161,11 +184,13 @@
       <option name="presentableId" value="Default" />
       <updated>1535544628240</updated>
       <workItem from="1535544629635" duration="7527000" />
+      <workItem from="1536141094007" duration="28000" />
+      <workItem from="1536141590665" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7527000" />
+    <option name="totallyTimeSpent" value="7557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,29 +206,29 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="TeamCity" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TeamCity" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,26 +244,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlexusEffect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C53FD6A3-0F3A-48DF-8726-A5828F86721F/c2/63e53be7/Vector3.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="455" column="24" selection-start-line="455" selection-start-column="24" selection-end-line="455" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plexus/Scripts/PlexusEffect.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        <state relative-caret-position="1245">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
-            <marker date="1535551678763" expanded="true" signature="6:32" ph="..." />
+            <marker date="1535551678763" expanded="false" signature="6:32" ph="..." />
             <marker date="1535551678763" expanded="true" signature="118:3475" ph="{...}" />
             <marker date="1535551678763" expanded="true" signature="601:1038" ph="{...}" />
             <marker date="1535551678763" expanded="true" signature="931:1035" ph="{...}" />
@@ -260,6 +271,76 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plexus/Scripts/PlexusEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <marker date="1535551678763" expanded="false" signature="6:32" ph="..." />
+            <marker date="1535551678763" expanded="true" signature="118:3475" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="601:1038" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="931:1035" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1066:1186" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1119:1138" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1215:2127" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1386:2029" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1423:1445" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1575:2025" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1726:1928" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1996:2020" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2078:2124" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2225:2635" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2674:3224" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2764:2831" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2916:3221" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="3109:3217" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="3263:3473" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlexusEffect.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C53FD6A3-0F3A-48DF-8726-A5828F86721F/c2/63e53be7/Vector3.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="455" column="24" selection-start-line="455" selection-start-column="24" selection-end-line="455" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SurfaceTest.shader">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plexus/Scripts/PlexusEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <marker date="1535551678763" expanded="false" signature="6:32" ph="..." />
+            <marker date="1535551678763" expanded="true" signature="118:3475" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="601:1038" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="931:1035" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1066:1186" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1119:1138" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1215:2127" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1386:2029" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1423:1445" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1575:2025" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1726:1928" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="1996:2020" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2078:2124" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2225:2635" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2674:3224" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2764:2831" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="2916:3221" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="3109:3217" ph="{...}" />
+            <marker date="1535551678763" expanded="true" signature="3263:3473" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BlackHole/Shaders/AdditiveFrag.shader">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
