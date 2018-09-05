@@ -46,13 +46,13 @@ Shader "Unlit/Fresnel"
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.normal = normalize(mul(unity_ObjectToWorld, v.normal));
 				o.color = v.color;
-				o.viewDir = WorldSpaceViewDir(v.vertex);
+				o.viewDir = normalize(WorldSpaceViewDir(v.vertex));
 				return o;
 			}
 
 			float fresnel (fixed3 normal, fixed3 viewDir)
 			{
-				float d = dot(normal, viewDir);
+				float d = abs(dot(normal, viewDir));
 				return 1 - pow(d, _Exponent);
 			}
 			
@@ -61,7 +61,7 @@ Shader "Unlit/Fresnel"
 				float f = fresnel(i.normal, i.viewDir);
 				f = pow(f, _Power);
 
-				return lerp(fixed4(0,0,0,1), _Color, f);
+				return i.color + f * _Color;
 			}
 			ENDCG
 		}
