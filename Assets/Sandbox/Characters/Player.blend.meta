@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: b96f12f6108ae4c7c830b53377f99e6c
-timeCreated: 1500495027
-licenseType: Pro
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Armature
     100002: Chest
@@ -121,7 +119,7 @@ ModelImporter:
     4300022: Body
     4300024: Sword
     4300026: Shield
-    7400000: Default Take
+    7400000: Cast
     7400002: Idle
     7400004: Run
     7400006: Walk
@@ -144,6 +142,7 @@ ModelImporter:
     13700018: Body
     13700020: Shield
     13700022: Sword
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -244,20 +243,30 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
       does not match position in animation file:\n\t'Upper_Leg_L' : position error
-      = 29.057499 mm\n\t'Lower_Leg_L' : position error = 31.632978 mm\n\t'Foot_L'
-      : position error = 4.410268 mm\n\t'Upper_Leg_R' : position error = 29.057493
-      mm\n\t'Lower_Leg_R' : position error = 31.633169 mm\n\t'Foot_R' : position error
-      = 4.409894 mm\n"
+      = 29.057518 mm\n\t'Lower_Leg_L' : position error = 31.633026 mm\n\t'Foot_L'
+      : position error = 4.410268 mm\n\t'Upper_Leg_R' : position error = 29.057438
+      mm\n\t'Lower_Leg_R' : position error = 31.633120 mm\n\t'Foot_R' : position error
+      = 4.409847 mm\n"
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Punch' has import animation warnings that might
-      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
-      retargeting quality.\n\t'Chest' is inbetween humanoid transforms and has rotation
-      animation that will be discarded.\n\nClip 'Run' has import animation warnings
+    animationImportWarnings: "\nClip 'Default Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Shoulder_L' has translation animation that
+      will be discarded.\n\t'Shoulder_R' has translation animation that will be discarded.\n\t'Upper_Leg_L'
+      has translation animation that will be discarded.\n\t'Upper_Leg_R' has translation
+      animation that will be discarded.\n\nClip 'Cast' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Shoulder_L' has translation animation that
+      will be discarded.\n\t'Shoulder_R' has translation animation that will be discarded.\n\t'Upper_Leg_L'
+      has translation animation that will be discarded.\n\t'Upper_Leg_R' has translation
+      animation that will be discarded.\n\nClip 'Punch' has import animation warnings
       that might lower retargeting quality:\nNote: Activate translation DOF on avatar
       to improve retargeting quality.\n\t'Chest' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'Upper_Leg_L' has scale
-      animation that will be discarded.\n\t'Lower_Leg_L' has scale animation that
-      will be discarded.\n\t'Foot_L' has scale animation that will be discarded.\n\nClip
+      and has rotation animation that will be discarded.\n\nClip 'Run' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Chest' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Upper_Leg_L'
+      has scale animation that will be discarded.\n\t'Lower_Leg_L' has scale animation
+      that will be discarded.\n\t'Foot_L' has scale animation that will be discarded.\n\nClip
       'Sword_atk01' has import animation warnings that might lower retargeting quality:\nNote:
       Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
       is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
@@ -272,6 +281,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -281,10 +291,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Default Take
-      takeName: Default Take
+      name: Cast
+      takeName: Cast
       firstFrame: 0
-      lastFrame: 19
+      lastFrame: 33
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -604,6 +614,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1.2
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
